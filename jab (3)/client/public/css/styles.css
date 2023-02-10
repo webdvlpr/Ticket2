@@ -1,0 +1,121 @@
+.headerbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    margin-top: 0;
+    height: 118px;
+}
+.header-menu {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 130%;
+    color: #000000;
+    text-decoration: none;
+  }
+.header-menu-list {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    text-decoration: none;
+    align-items: center;
+}
+.header-job-active {
+    font-weight: 700;
+    height: 33px ;
+    font-size: 14px;
+    line-height: 130%;
+    background-color: #039E4C;
+    color: #fff;
+    border-radius: 16px;
+    text-decoration: none;
+    align-items: center;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/* Signin page */
+.welcomeCard {
+    width: 30%;
+    height: 53%;
+    margin: 5% auto auto auto;
+}
+
+.welcomeCard2 {
+    width: 50%;
+    height: 53%;
+    margin: 5% auto auto auto;
+}
+
+.welcomeCard3 {
+    width: 40%;
+    height: 53%;
+    margin: 5% auto auto auto;
+}
+.welcomeCard4 {
+    width: 80%;
+    height: 53%;
+    margin: 5% auto auto auto;
+    box-shadow: 0px 0px #ECECEC;
+}
+.inputbar-signin{
+    height: 52px;
+    width: 80%;
+    margin-left: 10%;
+}
+.inputbar-signup{
+    height: 52px;
+    width: 95%;
+    margin-left: 2%;
+}
+.inputbar {
+    height: 42px;
+    width: 80%;
+}
+.inputbar2 {
+    height: 42px;
+    width: 80%;
+}
+.inputbar4 {
+    height: 42px;
+    width: 40%;
+}
+.formItem-signin{
+    margin-top: 30%;
+    margin-bottom: 2%;
+}
+.formItem {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.formItem2 {
+    width: 40%;
+    margin-left: 5%;
+}
+.titlerow {
+    display: flex;
+    justify-content: space-between;
+}
+.signinbtn{
+    background-color: #039E4C;
+    width: 80%;
+    margin-left: 10%;
+    height: 44px;
+    border-radius: 3px;
+}
+.signupbtn{
+    background-color: #039E4C;
+    width: 100%;
+    height: 44px;
+    border-radius: 3px;
+    margin-right: 50%;
+}
+.formItembtn{
+    width: 100%;
+    margin-right: 5%;
+}
+.ant-btn-primary:not(:disabled):hover {
+    background-color: #0ee874;
+
+}
